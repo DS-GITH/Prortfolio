@@ -14,9 +14,13 @@ return (
     <span className='text-gray-700  text-5xl ml-17'> I'm a Dev</span>
       <button className='w-40 h-16 !text-2xl text-blue-700 font-bold !bg-gray-200 mt-20 shadow-xl/20'> Contact </button>
         
-        <div className="absolute bottom-5 ">
-          // @ts-ignore
-          <FaInstagram size={24} color='#2b6cb0' className="hover:text-blue-900 transition "/>
+        <div className="absolute left-10 bottom-5 flex justify-center items-center gap-6">
+          {/* @ts-ignore */}
+          <FaInstagram size={30} color='#2b6cb0' className="hover:text-blue-900 transition "/>
+          {/* @ts-ignore */}
+          <FaInstagram size={30} color='#2b6cb0' className="hover:text-blue-900 transition "/>
+          {/* @ts-ignore */}
+          <FaInstagram size={30} color='#2b6cb0' className="hover:text-blue-900 transition "/>
         </div>
 
         
