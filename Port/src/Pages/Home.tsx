@@ -1,6 +1,7 @@
 import '../App.css'
 import Perfil from '../assets/Perfil.png'
-import { instagram } from "lucide-react"
+import { FaInstagram } from 'react-icons/fa'
+
 
 function Home() {
 return (
@@ -12,6 +13,13 @@ return (
     <span className='ml-10 italic text-shadow-lg'>World</span>
     <span className='text-gray-700  text-5xl ml-17'> I'm a Dev</span>
       <button className='w-40 h-16 !text-2xl text-blue-700 font-bold !bg-gray-200 mt-20 shadow-xl/20'> Contact </button>
+        
+        <div className="absolute bottom-5 ">
+          // @ts-ignore
+          <FaInstagram size={24} color='#2b6cb0' className="hover:text-blue-900 transition "/>
+        </div>
+
+        
   </div>
 
   <span className="ml-3 mt-25 text-[250px] font-bold transform origin-bottom scale-y-160 scale-x-150 text-blue-700 text-shadow-lg">!</span>
@@ -21,7 +29,7 @@ return (
     <span className="text-gray-900 absolute mt-150 text-8xl font-bold ">Name</span>
   </div>
 
-  <instagram/>
+
 
 </div>
 
