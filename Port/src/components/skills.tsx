@@ -1,3 +1,5 @@
+import { FaGear } from "react-icons/fa6";
+
 const skillsData = [
   { name: "Front-End", percent: 85 },
   { name: "Back-End", percent: 65 },
@@ -47,6 +49,7 @@ function Section({ title, children }: SectProps) {
 function Skills() {
   return (
     <div id="skills" className="w-full py-16 bg-white px-4 sm:px-6 lg:px-8">
+      <FaGear color="blue" size={150} className="lg:right-40 lg:top-195 lg:absolute sm:"/>
       <div className="max-w-4xl mx-auto">
         <Section title="Escolaridade">
           <div className="bg-gray-50 p-6 rounded-xl shadow-sm">

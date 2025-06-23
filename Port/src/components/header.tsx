@@ -15,7 +15,7 @@ function Header() {
           </span>
         </div>
 
-        {/* Navegação Principal - Desktop */}
+        {/* Navegação Principal - Desktop */} 
         <nav className="hidden md:flex gap-6 items-center">
           <NavLink href="#home" icon={<House />} text="Início" />
           <NavLink href="#projects" icon={<Laptop />} text="Projetos" />
